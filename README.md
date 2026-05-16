@@ -6,7 +6,13 @@
 
 **One button to close any overlay on any website** follow [Behind_Overlay](https://twitter.com/Behind_Overlay) for updates
 
+## Still Maintained
+
+This project is still maintained as of 2026, but it does not need frequent changes as long as the extension keeps working well.
+
 ## News
+
+5 Jan 2024 | Updated the Chrome extension to Manifest V3 for current Chrome extension compatibility.
 
 16 Mar 2021 | The scrollbar unblocker was improved to better handle overflowY (thanks to ricobl).
 

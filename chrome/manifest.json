@@ -2,11 +2,12 @@
   "name": "Behind The Overlay",
   "author": "Nicolae Namolovan",
   "description": "One click to close any overlay on any website, or let it run automatically in the background.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "permissions": [
     "activeTab",
     "scripting",
-    "storage"
+    "storage",
+    "contextMenus"
   ],
   "host_permissions": [
     "<all_urls>"

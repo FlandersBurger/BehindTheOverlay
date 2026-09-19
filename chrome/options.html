@@ -5,7 +5,7 @@
   <style>
     body {
       font-family: sans-serif;
-      width: 260px;
+      width: 280px;
       padding: 14px;
       margin: 0;
     }
@@ -21,6 +21,18 @@
       color: #666;
       margin: 8px 0 0;
     }
+    h2 {
+      font-size: 12px;
+      margin: 16px 0 4px;
+    }
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      height: 80px;
+      font-family: monospace;
+      font-size: 12px;
+      resize: vertical;
+    }
   </style>
 </head>
 <body>
@@ -29,6 +41,11 @@
     Always remove overlays automatically
   </label>
   <p>When on, overlays are removed as soon as any page loads or changes, on every site, with no click needed. When off, click the toolbar button (or press Ctrl+Shift+X) to remove overlays manually, as before.</p>
+
+  <h2>Sites to skip</h2>
+  <textarea id="excludedHosts" placeholder="www.doordash.com"></textarea>
+  <p>One hostname per line. Auto-remove is skipped on these sites, useful for apps whose own overlays (like a cart or address picker) look like a popup. Tip: right-click the toolbar icon and choose "Toggle auto-remove for this site" to add/remove the current site instantly.</p>
+
   <script src="js/options.js"></script>
 </body>
 </html>
